@@ -1,0 +1,268 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "code",
+  "profile_version": "1.0.0",
+  "graph_class": "truths",
+  "provenance_summary": {
+    "extracted_truth": 12
+  },
+  "nodes": [
+    {
+      "id": "Knowledge_app",
+      "kind": "package",
+      "label": "Knowledge_app",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::/CHANGELOG.md",
+      "kind": "file",
+      "label": "CHANGELOG.md",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::/CONTRIBUTING.md",
+      "kind": "file",
+      "label": "CONTRIBUTING.md",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::/README.md",
+      "kind": "file",
+      "label": "README.md",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::/TERMS.md",
+      "kind": "file",
+      "label": "TERMS.md",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::CHANGELOG",
+      "kind": "module",
+      "label": "Knowledge_app::CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::CHANGELOG::CHANGELOG",
+      "kind": "doc",
+      "label": "CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::CONTRIBUTING",
+      "kind": "module",
+      "label": "Knowledge_app::CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::CONTRIBUTING::CONTRIBUTING",
+      "kind": "doc",
+      "label": "CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::README",
+      "kind": "module",
+      "label": "Knowledge_app::README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::README::README",
+      "kind": "doc",
+      "label": "README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::TERMS",
+      "kind": "module",
+      "label": "Knowledge_app::TERMS",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "Knowledge_app::TERMS::TERMS",
+      "kind": "doc",
+      "label": "TERMS",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "Knowledge_app",
+      "to": "Knowledge_app::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app",
+      "to": "Knowledge_app::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app",
+      "to": "Knowledge_app::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app",
+      "to": "Knowledge_app::TERMS",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app::/CHANGELOG.md",
+      "to": "Knowledge_app::CHANGELOG::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app::/CONTRIBUTING.md",
+      "to": "Knowledge_app::CONTRIBUTING::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app::/README.md",
+      "to": "Knowledge_app::README::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app::/TERMS.md",
+      "to": "Knowledge_app::TERMS::TERMS",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app::CHANGELOG",
+      "to": "Knowledge_app::/CHANGELOG.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app::CONTRIBUTING",
+      "to": "Knowledge_app::/CONTRIBUTING.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app::README",
+      "to": "Knowledge_app::/README.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "Knowledge_app::TERMS",
+      "to": "Knowledge_app::/TERMS.md",
+      "kind": "contains",
+      "attrs": {}
+    }
+  ],
+  "audit_head": "51e2d15873e8ae6f370a5f962821ff760249245d3a8b3dc7aab54f2b2b7b86c8",
+  "audit_log": [
+    {
+      "seq": 0,
+      "ts": "1795021546",
+      "op": "genesis",
+      "payload": "{}",
+      "prev_hash": "GENESIS",
+      "hash": "78e225bd6a12e9661dfab18a7fbabe31c6f06289d798f873a7e3cb78117d6f56"
+    },
+    {
+      "seq": 1,
+      "ts": "1795021546",
+      "op": "index_started",
+      "payload": "{\"package\":\"Knowledge_app\",\"repo\":\"/home/hatch/workspace/codetopo-work/PROFILES-GM-GATE-2026-11-18/work/Knowledge_app\"}",
+      "prev_hash": "78e225bd6a12e9661dfab18a7fbabe31c6f06289d798f873a7e3cb78117d6f56",
+      "hash": "f82d4737a47a529f4ae4a8b372092f82da5ab6f1aa83f6b21aaf83d3564c5775"
+    },
+    {
+      "seq": 2,
+      "ts": "1795021546",
+      "op": "index_finished",
+      "payload": "{\"diagnostics\":0,\"edges\":12,\"files_failed\":0,\"files_indexed\":4,\"nodes\":13}",
+      "prev_hash": "f82d4737a47a529f4ae4a8b372092f82da5ab6f1aa83f6b21aaf83d3564c5775",
+      "hash": "51e2d15873e8ae6f370a5f962821ff760249245d3a8b3dc7aab54f2b2b7b86c8"
+    }
+  ]
+}
